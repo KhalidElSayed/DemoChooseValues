@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <GridView
+        android:id="@+id/gv_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="auto_fit"
+        android:columnWidth="60dp"
+        android:layout_alignParentTop="true"
+        android:verticalSpacing="5dp"
+	    android:horizontalSpacing="5dp"
+	    android:stretchMode="columnWidth"
+         />
+
+    <ListView 
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gv_panel"
+        />
+    
+</RelativeLayout>
