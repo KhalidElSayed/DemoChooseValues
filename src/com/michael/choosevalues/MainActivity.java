@@ -13,9 +13,12 @@ import android.widget.GridView;
 import android.widget.ListView;
 
 /**
- * 类似QQ通讯录中的选择联系人，使用的是GridView
+ * use GridView make the effect like QQ Address Book when choose a contact 
  * 
+ * 类似QQ通讯录中的短信模块中选择联系人的效果，使用的是GridView
  * 
+ * @author MichaelYe
+ * @since 2012-8-28
  * */
 public class MainActivity extends Activity 
 {
@@ -67,7 +70,7 @@ public class MainActivity extends Activity
     	list.add("乔丹");
     	list.add("爱斯基摩");
     	list.add("维也纳");
-    	list.add("天线宝宝");
+    	list.add("周星星");
     	return list;
     }
 }
